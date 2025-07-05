@@ -7,6 +7,7 @@
 
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
+import './styles/main.scss';
 
 function start() {
   const root = createRoot(document.getElementById("root")!);

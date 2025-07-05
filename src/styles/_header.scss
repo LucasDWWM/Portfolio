@@ -1,0 +1,38 @@
+// _header.scss
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+// _menu.scss
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(images/icons8-toggle-off-96.png); // Ajustez les chemins d'images
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
+    cursor: pointer;
+
+    &.active { // .toggle.active
+        background: url(images/icons8-toggle-on-96.png);
+        background-repeat: no-repeat;
+        background-size: 55px;
+        background-position: center;
+        cursor: pointer;
+    }
+}
